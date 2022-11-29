@@ -82,3 +82,33 @@ const superCar:car = {
      type:"petrol"
 
 }
+console.log(superCar)
+
+
+// union 
+ type Id = number |string;
+ // narrowing
+ function printId(id:Id){
+    if(typeof id ==="string"){
+        console.log(id.toUpperCase());
+
+    }
+    else{
+        console.log(id)
+    }
+ }
+printId('hello bhai kesa hai') //HELLO BHAI KESA HAI
+printId(3);  // 3
+
+
+
+// get first three element (union in function)
+function getFirstThree(x:string|number[]){
+    return x.slice(0,3);
+}
+console.log(getFirstThree("ramkumar"))
+console.log(getFirstThree([1,2,3,4,6]))
+
+
+
+//
