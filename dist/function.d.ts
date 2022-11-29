@@ -11,3 +11,6 @@ declare type User = {
 };
 declare const ravi: User;
 declare function login(getData: User): User;
+declare type ID = number | string;
+declare const userId: ID;
+declare const userId1: ID;

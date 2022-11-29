@@ -29,7 +29,10 @@ const ravi = {
     phoneNo: 2345678999
 };
 console.log(ravi);
+// return type                                    
 function login(getData) {
     return getData;
 }
 console.log(login(ravi));
+const userId = "1232847";
+const userId1 = 1234567;

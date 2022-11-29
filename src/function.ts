@@ -58,3 +58,6 @@ function login(getData:User): User{
 
 console.log(login(ravi))
 
+type ID = number|string;
+const userId:ID = "1232847"
+const userId1 :ID= 1234567
