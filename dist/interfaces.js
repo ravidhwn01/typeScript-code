@@ -41,9 +41,10 @@ function printId(id) {
 }
 printId('hello bhai kesa hai'); //HELLO BHAI KESA HAI
 printId(3); // 3
-// get first three element
+// get first three element (union in function)
 function getFirstThree(x) {
     return x.slice(0, 3);
 }
 console.log(getFirstThree("ramkumar"));
 console.log(getFirstThree([1, 2, 3, 4, 6]));
+//
