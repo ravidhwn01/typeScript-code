@@ -28,3 +28,57 @@ isActive:true,
  transactions:[transaction1,transaction2]
 }
 console.log(bank)
+
+
+// Extend
+// DO NOT  REPEAT YOUR SELF
+
+interface Book{
+    name: string;
+    price: number;
+
+}
+interface EBook extends Book {
+    format :string;
+    fileSize : number;
+
+}
+interface AudioBook extends EBook {
+    duration:number;
+}
+
+const books : AudioBook = {
+name:"asjsd",
+price:2344,
+duration:9,
+fileSize:5,
+format:"pdf"
+
+}
+
+
+// merging in ts  
+// we can merge interfaces by creating same interface(name will be equal)
+interface car{   // if this is in other library
+    name:string;
+    color:string;
+    speed:number;
+
+}
+interface car{
+    type:string;
+    
+}
+interface car{
+    
+    model:string;
+}
+
+const superCar:car = {
+    color :"red",
+     model:"xuv",
+     name:"bmw",
+     speed:455,
+     type:"petrol"
+
+}
