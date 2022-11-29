@@ -40,7 +40,7 @@ console.log(user.name)
 // custom type in ts
 type User = {
     name:string
-    phoneNo ? :number  // optional null / number
+    phoneNo ? :number  // optional undefined / number
     age:number
 }
 
@@ -50,3 +50,11 @@ const ravi:User = {
     phoneNo:2345678999
 }
 console.log(ravi)
+
+                        // return type                                    
+function login(getData:User): User{
+    return getData;
+}
+
+console.log(login(ravi))
+

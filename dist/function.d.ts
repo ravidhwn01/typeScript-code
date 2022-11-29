@@ -10,3 +10,4 @@ declare type User = {
     age: number;
 };
 declare const ravi: User;
+declare function login(getData: User): User;
