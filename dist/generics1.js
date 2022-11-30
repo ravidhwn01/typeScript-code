@@ -1,6 +1,6 @@
 "use strict";
 // generics
-// reusability of 
+// reusability of a function
 function logIn(arg) {
     console.log(arg);
     return arg;
