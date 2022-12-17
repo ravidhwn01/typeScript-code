@@ -15,5 +15,5 @@ const names = ["ravi", "aalu", "kalu", "kaju", "kala", "kali", "raja", "raju"];
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const randomName = getRandom(names);
 const numName = getRandom(nums);
-console.log(randomName);
-console.log(numName);
+console.log(randomName, typeof randomName);
+console.log(numName, typeof numName);
